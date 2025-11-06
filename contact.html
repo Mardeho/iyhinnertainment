@@ -1,89 +1,44 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Contact — IYH Innertainment</title>
-<meta name="description" content="Request booking or information.">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/css/site.css">
-<script defer src="/assets/js/main.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head><body>
+<header class="header"><div class="container">
+  <a class="logo" href="/"><span class="logo-mark">IYH</span> IYH Innertainment</a>
+  <nav>
+    <a href="/podcasts.html">Podcasts</a>
+    <a href="/events.html">Events & Booking</a>
+    <a href="/dj.html">DJ Services</a>
+    <a class="button" href="/contact.html">Book an Experience</a>
+  </nav>
+</div></header>
 
-</head>
-<body>
-<header class="header">
-  <div class="container">
-    <a class="logo" href="/"><span class="logo-mark">IYH</span> IYH Innertainment</a>
-    <nav>
-      <a href="/podcasts.html">Podcasts</a>
-      <a href="/events.html">Events & Booking</a>
-      <a href="/dj.html">DJ Services</a>
-      <a href="/gallery.html">Gallery</a>
-      <a href="/about.html">About</a>
-      <a class="button" href="/contact.html">Book an Experience</a>
-    </nav>
-  </div>
-</header>
+<section class="hero"><div class="container">
+  <span class="tag">Reach out</span>
+  <h1>Contact</h1>
+  <p>Tell us about your event. We’ll reply with availability and a simple quote.</p>
+</div></section>
 
-<main>
-<section class="section">
-  <div class="container">
-    <h1 style="font-family:'Playfair Display',serif;margin-top:0">Contact</h1>
-    <p>Tell us about your event. We’ll reply with availability and a simple quote.</p>
-    <form class="form" action="https://forms.gle/xg6YRk8MXy5kk1uL8" method="POST">
-      <fieldset>
-        <label>Your Name</label>
-        <input type="text" name="name" required>
-        <label>Email</label>
-        <input type="email" name="email" required>
-        <label>What are you booking?</label>
-        <select name="service">
-          <option>Live Podcast</option>
-          <option>Event Hosting</option>
-          <option>DJ Services</option>
-          <option>Custom Experience</option>
-        </select>
-        <label>Date and Location (if known)</label>
-        <input type="text" name="when_where">
-        <label>Budget range</label>
-        <input type="text" name="budget">
-        <label>Notes</label>
-        <textarea name="notes" rows="4"></textarea>
-        <button class="button" type="submit">Send</button>
-      </fieldset>
-    </form>
-  </div>
-</section>
+<section class="section"><div class="container">
+  <form class="form" action="https://formspree.io/f/your-form-id" method="POST">
+    <fieldset>
+      <label>Your Name</label><input type="text" name="name" required>
+      <label>Email</label><input type="email" name="email" required>
+      <label>What are you booking?</label>
+      <select name="service">
+        <option>Live Podcast</option>
+        <option>Event Hosting</option>
+        <option>DJ Services</option>
+        <option>Custom Experience</option>
+      </select>
+      <label>Date and Location (if known)</label><input type="text" name="when_where">
+      <label>Budget range</label><input type="text" name="budget">
+      <label>Notes</label><textarea name="notes" rows="4"></textarea>
+      <button class="button" type="submit">Send</button>
+    </fieldset>
+  </form>
+</div></section>
 
-</main>
-<footer class="footer">
-  <div class="container">
-    <div class="cols">
-      <div>
-        <h4>IYH Innertainment</h4>
-        <p>Where story meets stage. A media-led event house: podcasts, live tapings, hosting, and DJ services.</p>
-      </div>
-      <div>
-        <h4>Quick Links</h4>
-        <ul>
-          <li><a href="/podcasts.html">Podcasts</a></li>
-          <li><a href="/events.html">Events & Booking</a></li>
-          <li><a href="/dj.html">DJ Services</a></li>
-          <li><a href="/gallery.html">Gallery</a></li>
-          <li><a href="/contact.html">Contact</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Connect</h4>
-        <ul>
-          <li><a href="https://www.youtube.com/@iyhnetwork" target="_blank" rel="noopener">YouTube</a></li>
-          <li><a href="mailto:iyhinnertainment@gmail.com">Email</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="legal">© 2025 IYH Innertainment • iyhinnertainment.com</div>
-  </div>
-</footer>
-
-</body>
-</html>
+<footer class="footer"><div class="container">© IYH Innertainment • Contact</div></footer>
+</body></html>
